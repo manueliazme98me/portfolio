@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manuel Diaz — Software Engineer</title>
+  <meta name="description"
+    content="Manuel Diaz— Software Engineer focused on React, TypeScript, frontend architecture and digital products.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav"><a class="logo" href="#">BM</a>
+      <div class="links">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-actions">
+        <a class="social-icon" href="https://t.me/brownmillos" target="_blank" aria-label="Telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+        <a class="social-icon" href="https://github.com/manueliazme98me" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="wrap reveal">
+      <div class="hero-content">
+        <h1>Manuel <span>Diaz</span></h1>
+        <h3>Software Engineer</h3>
+        <h4>Building modern web applications with React, TypeScript and a passion for great user experiences.</h4>
+        <a href="#contact" class="contact-btn">
+          <span class="mail-icon">✉</span>
+          <span>Contact Me</span>
+          <span class="arrow">›</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="experience">
+      <div class="wrap reveal">
+        <div class="section-head">
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="track"></div>
+
+          <button class="item active" onclick="selectStep(0,this)">
+            <span class="circle"></span>
+            <div><b>2024 - 2026</b><strong>McGraw Hill</strong><small>Software Engineer</small></div>
+          </button>
+
+          <button class="item" onclick="selectStep(1,this)">
+            <span class="circle"></span>
+            <div><b>2021 - 2023</b><strong>Raiffeisen Bank Online</strong><small>Frontend Engineer</small></div>
+          </button>
+
+          <button class="item" onclick="selectStep(2,this)">
+            <span class="circle"></span>
+            <div><b>2020</b><strong>University Tech Challenge</strong><small>Frontend Developer</small></div>
+          </button>
+        </div>
+
+        <div class="experience">
+          <div class="exp-list">
+            <article class="exp">
+              <!-- LEFT -->
+              <div class="exp-info">
+                <div class="exp-role">
+                  Software Engineer
+                </div>
+                <div class="exp-company">
+                  McGraw Hill · Copenhagen, Denmark
+                </div>
+                <div class="exp-date">
+                  APR 2024 — JUN 2026
+                </div>
+                <p class="exp-description">
+                  Smartbook 2.0 — learning tool designed for pre-lecture preparation. Used by 400,000 users daily.
+                </p>
+                <p class="exp-description">
+                  Designed frontend architecture and technical direction
+                  for SmartBook 2.0. Focused on maintainability,
+                  accessibility, testing, localization and delivery speed.
+                </p>
+                <a class="exp-link" href="https://www.mheducation.com/highered/connect/smartbook.html" target="_blank">
+                  View SmartBook ↗
+                </a>
+                <div class="exp-tech">
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>NX</span>
+                  <span>Playwright</span>
+                  <span>i18n</span>
+                  <span>Accessibility</span>
+                </div>
+              </div>
+              <!-- RIGHT -->
+              <div class="exp-screen">
+                <img src="assets/images/McGraw-smartbook.png" alt="McGraw Hill SmartBook interface">
+              </div>
+            </article>
+            <article class="exp">
+              <!-- LEFT: EXPERIENCE INFO -->
+              <div class="exp-info">
+
+                <div class="exp-role">
+                  Frontend Engineer
+                </div>
+
+                <div class="exp-company">
+                  Raiffeisen Bank Online (RBO) · Moscow, Russia
+                </div>
+
+                <div class="exp-date">
+                  JUN 2021 — APR 2023
+                </div>
+
+                <p class="exp-description">
+                  Raiffeisen Business Online (RBO) — digital banking platform designed
+                  for businesses and entrepreneurs, serving Raiffeisen Bank’s business
+                  customer base.
+                </p>
+
+                <p class="exp-description">
+                  Developed and maintained customer-facing financial applications
+                  including customer onboarding, loan application flows, and account
+                  management features supporting digital banking workflows and credit
+                  products.
+                </p>
+
+                <a class="exp-link"
+                  href="https://raiffeisen.ua/en/aem/biznesu/onlain-servisy/raiffeisen-business-online.html"
+                  target="_blank">
+                  View Raiffeisen Business Online ↗
+                </a>
+
+                <div class="exp-tech">
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Redux</span>
+                  <span>Jest</span>
+                  <span>Java/Spring</span>
+                  <span>GitLab CI/CD</span>
+                </div>
+
+              </div>
+
+              <!-- RIGHT: SCREENSHOT -->
+              <div class="exp-screen">
+
+                <img src="assets/images/RaiffeisenBankOnline.png"
+                  alt="Raiffeisen Business Online digital banking platform">
+
+              </div>
+
+            </article>
+            <article class="exp">
+              <!-- LEFT: EXPERIENCE INFO -->
+              <div class="exp-info">
+
+                <div class="exp-role">
+                  Frontend Developer
+                </div>
+
+                <div class="exp-company">
+                  BeautyConnect · University Tech Challenge
+                </div>
+
+                <div class="exp-date">
+                  2020 - 2018
+                </div>
+
+                <p class="exp-description">
+                  Developed a beauty service automation platform as part of a
+                  three-person developer team. The application streamlined service
+                  booking workflows, client management, and administrative operations.
+                </p>
+
+                <p class="exp-description">
+                  Architected the frontend using React with reusable components,
+                  responsive layouts, secure authentication flows, and API-driven
+                  communication with backend services.
+                </p>
+
+                <div class="exp-tech">
+
+                  <span>React</span>
+                  <span>JavaScript</span>
+                  <span>Bootstrap</span>
+                  <span>CSS</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>REST API</span>
+                  <span>JWT</span>
+
+                </div>
+
+              </div>
+              <!-- RIGHT: SCREENSHOT -->
+              <div class="exp-screen">
+                <img src="assets/images/beautyConnect.png" alt="BeautyConnect beauty service automation platform">
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap reveal">
+        <div class="section-head">
+          <h2>Skils</h2>
+        </div>
+
+        <div class="skills-chart">
+          <div class="skill-ring-card">
+            <div class="skill-ring">
+              <svg>
+                <circle class="ring-bg" cx="85" cy="85" r="70"></circle>
+                <circle class="ring-progress" cx="85" cy="85" r="70" stroke="#61dafb" data-percent="95">
+                </circle>
+              </svg>
+              <div class="skill-number">
+                95%
+              </div>
+            </div>
+            <h3>React</h3>
+            <p>Frontend Architecture</p>
+          </div>
+          <div class="skill-ring-card">
+            <div class="skill-ring">
+              <svg>
+                <circle class="ring-bg" cx="85" cy="85" r="70"></circle>
+                <circle class="ring-progress" cx="85" cy="85" r="70" stroke="#3178c6" data-percent="92">
+                </circle>
+              </svg>
+              <div class="skill-number">
+                92%
+              </div>
+            </div>
+            <h3>TypeScript</h3>
+            <p>Type Safe Development</p>
+          </div>
+          <div class="skill-ring-card">
+            <div class="skill-ring">
+              <svg>
+                <circle class="ring-bg" cx="85" cy="85" r="70"></circle>
+                <circle class="ring-progress" cx="85" cy="85" r="70" stroke="#f7df1e" data-percent="95">
+                </circle>
+              </svg>
+              <div class="skill-number">
+                95%
+              </div>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Modern ES6+</p>
+          </div>
+          <div class="skill-ring-card">
+            <div class="skill-ring">
+              <svg>
+                <circle class="ring-bg" cx="85" cy="85" r="70"></circle>
+                <circle class="ring-progress" cx="85" cy="85" r="70" stroke="#e34c26" data-percent="85">
+                </circle>
+              </svg>
+              <div class="skill-number">
+                85%
+              </div>
+            </div>
+            <h3>HTML/CSS</h3>
+            <p>UI Engineering</p>
+          </div>
+          <div class="skill-ring-card">
+            <div class="skill-ring">
+              <svg>
+                <circle class="ring-bg" cx="85" cy="85" r="70"></circle>
+
+                <circle class="ring-progress" cx="85" cy="85" r="70" stroke="#68a063" data-percent="75">
+                </circle>
+              </svg>
+              <div class="skill-number">
+                75%
+              </div>
+            </div>
+            <h3>Node.js</h3>
+            <p>Backend APIs</p>
+          </div>
+          <div class="skill-ring-card">
+            <div class="skill-ring">
+              <svg>
+                <circle class="ring-bg" cx="85" cy="85" r="70"></circle>
+                <circle class="ring-progress" cx="85" cy="85" r="70" stroke="#ff6b35" data-percent="80">
+                </circle>
+              </svg>
+              <div class="skill-number">
+                80%
+              </div>
+            </div>
+            <h3>DevOps</h3>
+            <p>CI/CD Workflow</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap reveal">
+        <div class="section-head">
+          <h2>Education</h2>
+        </div>
+        <div class="edu-card">
+          <div class="edu-copy">
+            <h3><strong>Sabancı University</strong></h3>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              Istanbul, Turkey
+            </p>
+            <small>2016 — 2020 </small>
+            <p>Master's Degree - Computer Science and Engineering</p>
+
+            <div class="tags">
+              <span class="tag">AWS Cloud Fundamentals</span>
+            </div>
+          </div>
+          <div class="edu-image real-photo">
+            <img src="https://www.sabancivakfi.org/sabancivakfi/cdn/uploads/000019381_sabanci-universitesi-2-new.webp"
+              alt="Sabancı University campus aerial view in Istanbul, Turkey" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+
+      <div class="contact-container">
+        <div class="contact-title">
+          <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-layout">
+          <!-- LEFT : Contact Information -->
+          <div class="contact-info-box">
+            <a href="mailto:manueliazme98@gmail.com" target="_blank" class="contact-row">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>manueliazme98@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/manueliazme98me" target="_blank" class="contact-row">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <strong>Github</strong>
+                <span>github.com/manueliazme98me</span>
+              </div>
+            </a>
+
+            <a href="https://www.google.com/maps/place/857+N+Grant+St,+Denver,+CO+80203,+USA/@39.7300391,-104.9862029,18z/data=!4m9!1m2!2m1!1sHotels!3m5!1s0x876c7ed7bedd081d:0xf310c93018a10e6b!8m2!3d39.7300391!4d-104.9839666!16s%2Fg%2F11bw4q5zyf?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="contact-row">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Location</strong>
+                <span>Denver, USA</span>
+              </div>
+            </a>
+
+            <a href="https://wa.me/19295487825" target="_blank" class="contact-row">
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>
+                <strong>Phone</strong>
+                <span>+1 929 548-7825</span>
+              </div>
+            </a>
+
+          </div>
+
+          <!-- RIGHT : Message Form -->
+
+          <div class="message-box">
+            <form id="contactForm">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">
+                Send Message
+              </button>
+              <p id="formStatus"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot"><span>© 2026 Manuel Diaz. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <button class="chat-toggle" id="chatToggle" aria-label="Open chatbot">✦</button>
+  <div class="chat" id="chat">
+    <div class="chat-head">
+      <div><b>Ask about Manuel</b><br><small>Portfolio assistant · online</small></div><button id="chatClose"
+        style="background:none;border:0;color:#8e99aa;cursor:pointer">✕</button>
+    </div>
+    <div class="messages" id="messages">
+      <div class="msg bot">Hi — I can tell you about Manuel's experience, projects, stack, education, or the impact
+        described in this portfolio.</div>
+    </div>
+    <div class="quick"><button data-q="Tell me about Manuel">About me</button><button
+        data-q="What did he do at McGraw Hill?">McGraw Hill</button><button data-q="What is his stack?">Tech
+        stack</button><button data-q="Tell me about education">Education</button></div>
+    <form class="chat-form" id="chatForm"><input id="chatInput" autocomplete="off"
+        placeholder="Ask something…"><button>Send</button></form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
